@@ -1,0 +1,79 @@
+
+.App{
+  background-color: #f5f5f5;
+  font-size: 16px;
+  display: grid;
+  grid-template-areas: 
+  'header header header header header header'
+  'main main main main main main main'
+  'footer footer footer footer footer footer';
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.Footer{
+  text-align: center;
+  border: 3px ridge darkcyan;
+  grid-area: 'footer';
+  max-width: 99.3%;
+  width: 100%;
+  margin-top: 2rem;
+  bottom: 0;
+}
+
+.Home, .About, .Contact, .Resume{
+  grid-area: 'main';
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+html,body, h1, h2, h3, h4, h5, h6{
+  font-family: 'Raleway', Arial, sans-serif;
+}
+.Header{
+  grid-area: 'header';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name-title-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.header-name{
+  letter-spacing: 12px;
+  font-size: 20px;
+  line-height: 2;
+}
+.header-title{
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+i{
+  font-size: 25px;
+  color: rgb(100, 94, 94);
+}
+
+.nav-link{
+  text-decoration: none;
+  color: rgb(100, 94, 94);
+}
+.nav-link:hover{
+  background-color: darkcyan;
+  color: whitesmoke;
+}
+.nav-list{
+  margin-top: 1.4rem;
+}
+
+.fab:hover{
+  color: darkcyan;
+  cursor: pointer;
+}
