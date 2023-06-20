@@ -20,6 +20,7 @@ function App() {
       <Route path = "/resume" element = {<Resume />} />
       <Route path = "/contact" element = {<Contact />} />
       </Routes>
+      <div>I Have Changed</div>
      </main>
      <Footer />
     </div>
