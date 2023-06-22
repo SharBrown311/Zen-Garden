@@ -1,13 +1,13 @@
 import React from "react"
-import Resume from "./assets/Resume"
-import Contact from "./assets/Contact"
+import Resume from "./assets/Resume.jsx"
+import Contact from "./assets/Contact.jsx"
 
 
 import {Routes, Route, Link} from 'react-router-dom'
 import "./App.css"
-import Header from "./page-components/Header"
-import Home from "./assets/Home"
-import Footer from "./page-components/Footer"
+import Header from "./page-components/Header.jsx"
+import Home from "./assets/Home.jsx"
+import Footer from "./page-components/Footer.jsx"
 function App() {
  
   return (
