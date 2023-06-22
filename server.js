@@ -13,25 +13,22 @@ const port = process.env.PORT || 3000;
   //CONNECTION TO MONGODB
   mongoose.set('strictQuery', true);
   mongoose.connect(
-   `${process.env.MONGODB_URI}`
+    "mongodb+srv://sbsharonbrown311:OjCCcfJzKrbyVK2r@cluster0.iu8evru.mongodb.net/portfolio"
     ,() => console.log("Mongoose Connected to DB"))
   
-  
-  
-  // app.use("/api", expressjwt({secret: process.env.SECRET, algorithms: ['HS256']}))
   
   // app.use(bodyParser.urlencoded({ extended: false }));
   // app.use(bodyParser.json());
   app.use((err, req, res, next) => {
     console.log(err)
-    if(err.name === "UnauthorizedError"){
+    if(err.name === "Unauthorized-Error"){
       res.status(err.status)
     }
     return res.send({errMsg: err.message})
   })
   
   app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, './client/dist/index.html'));
+    res.sendFile(path.join(__dirname, "client" , "build", "index.html"));
   });
   
   app.listen(port, () => {
