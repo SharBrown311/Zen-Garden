@@ -3,7 +3,7 @@ import Resume from "./assets/Resume.jsx"
 import Contact from "./assets/Contact.jsx"
 
 
-import {Routes, Route, Link} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import "./App.css"
 import Header from "./page-components/Header.jsx"
 import Home from "./assets/Home.jsx"
