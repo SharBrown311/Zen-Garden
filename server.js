@@ -22,7 +22,7 @@ const express = require(
   
   
   
-  app.use("/api", expressjwt({secret: process.env.SECRET, algorithms: ['HS256']}))
+  // app.use("/api", expressjwt({secret: process.env.SECRET, algorithms: ['HS256']}))
   
   app.use(bodyParser.urlencoded({ extended: false }));
   app.use(bodyParser.json());
