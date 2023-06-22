@@ -1,10 +1,8 @@
-const express = require(
-  "express"
-  )
+const express = require("express")
   const path = require("path")
   const mongoose = require("mongoose")
   const morgan = require("morgan")
-  const bodyParser = require("body-parser");
+  // const bodyParser = require("body-parser");
   
   require("dotenv").config();
   const port = process.env.PORT || 3000;
@@ -24,8 +22,8 @@ const express = require(
   
   // app.use("/api", expressjwt({secret: process.env.SECRET, algorithms: ['HS256']}))
   
-  app.use(bodyParser.urlencoded({ extended: false }));
-  app.use(bodyParser.json());
+  // app.use(bodyParser.urlencoded({ extended: false }));
+  // app.use(bodyParser.json());
   app.use((err, req, res, next) => {
     console.log(err)
     if(err.name === "UnauthorizedError"){
