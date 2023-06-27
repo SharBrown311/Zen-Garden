@@ -18,24 +18,15 @@
   flex-direction: column;
   
 }
-
-/* .left-column{
-  padding-left: 2rem;
-  padding-right: 2rem;
-  text-align: left;
-} */
-/* .image-container{
-  margin-top: 1rem;
-  background-image: url("../assets/images/PhotoRoom-20230615-102633.JPG");
-  border: .625rem ridge darkcyan;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 350px;
-  width: 300px;
-} */
 .text{
-  margin-left: .5rem;
+  font-size: 12px;
 }
+.top-icons{
+  font-size: 15px;
+  vertical-align: middle;
+  margin-left: 1rem;
+}
+
 .form-container{
   display: flex;
   flex-direction: column;
@@ -44,16 +35,21 @@
   padding-right: 10%;
 }
 .about-body{
-  text-align: center;
+  text-align: left;
   padding-right: 8rem;
   padding-left: 8rem;
 }
-.view-button{
-  border: transparent;
-}
-.view-button:hover{
-  background-color: darkcyan;
-}
+
 .fas:hover{
   color: whitesmoke;
+}
+.left-column{
+  text-align: left;
+  padding-right: 1rem;
+}
+.Contact{
+  width: 100%;
+}
+.skills-section{
+  margin-left: 1rem;
 }

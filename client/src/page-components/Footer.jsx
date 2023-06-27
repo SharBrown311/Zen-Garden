@@ -9,8 +9,6 @@ function Footer() {
         <li className='footer-link'><i className='fab fa-linkedin'></i></li>
         <li className='footer-link'>
           <i className='fab fa-facebook-square'><a href='#'></a></i></li>
-        <li className='footer-link'><i className='fab fa-instagram-square'></i></li>
-        <li className='footer-link'><i className='fab fa-twitter-square'></i></li>
       </ul>
     </footer>
   )

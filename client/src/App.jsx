@@ -16,7 +16,7 @@ function App() {
      <main className="main-body">
       <hr />
       <Routes>
-        <Route path = "/" element = {<Home />} />
+        <Route exact path = "/" element = {<Home />} />
       <Route path = "/resume" element = {<Resume />} />
       <Route path = "/contact" element = {<Contact />} />
       </Routes>

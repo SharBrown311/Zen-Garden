@@ -5,19 +5,17 @@ function Resume() {
     // page-container
     <div className='Resume main-container'>
       <div className='left-column card'>
-       <div className='container card image-container' >
-        </div>
         <div className='bottom-left-container'>
           <h2 style = {{textAlign: "center"}}>Sharon Brown</h2>
-          <p className='text'><i className='fas fa-briefcase'></i>&nbsp;&nbsp;Web Developer</p>
-          <p className='text'><i className='fas fa-house'></i>&nbsp;&nbsp;Glassboro, NJ</p>
-          <p className='text'><i className='fas fa-envelope-open-text'></i>&nbsp;&nbsp;sbsharonbrown311@gmail.com</p>
-          <p className='text'><i className='fas fa-phone'></i>&nbsp;&nbsp;(856)974-0836</p>
-          <p><a href = "#">Github</a></p>
-          <p><a href = "#">LinkedIn</a></p>
+          <p className='text'><i className='fas fa-briefcase top-icons'></i>&nbsp;&nbsp;Web Developer</p>
+          <p className='text'><i className='fas fa-house top-icons'></i>&nbsp;&nbsp;Glassboro, NJ</p>
+          <p className='text'><i className='fas fa-envelope-open-text top-icons'></i>&nbsp;&nbsp;Sbsharonbrown311@gmail.com </p>
+          <p className='text'><i className='fas fa-phone top-icons'></i>&nbsp;&nbsp;(856)974-0836</p>
+          <p style = {{marginLeft: "1rem", fontSize: "12px", color: "#000"}}><a style = {{color: "#000"}} href = "#">Github</a></p>
+          <p style={{marginLeft: '1rem', fontSize: "12px"}}><a style={{color: "#000"}} href = "#">LinkedIn</a></p>
           </div>
           <hr />
-          <div>
+          <div className='skills-section'>
             <br />
             <h4>
           <i className='fas fa-asterisk'></i>
